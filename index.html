@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amiya Hidayathulla</title>
+    <link rel="icon" href="amilia.svg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1><span>Amiya</span> Hidayathulla</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="signup.html#signup">Sign Up</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 image-container">
+                    <img src="my_image.png" alt="Profile Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-6 text-container text-white"> 
+                    <h1 class="intro-heading">Hi, I'm <br>Amiya Hidayathulla</h1> 
+                    <h4>Frontend Developer <br><br>
+                        Learner | Influencer | Student@SJCET</h4><br><br>
+                    <p>"Learn the process and work on it"</p><br><br>
+                    <footer>~ Amiya</footer>
+                </div>
+            </div>
+        </div>
+        <a href="#connect-me" class="connect-button">Connect with Me</a>
+    </section>
+    
+
+<!-- About Me Section -->
+<section id="about" class="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 h1-container">
+                <h1 class="text-center">Wanna Know More <br> About me?</h1>
+            </div>
+            <div class="col-md-6 about-content">
+                <h4>Hi there !</h4> <br>
+                <h3 class="bold-text">I'm <span class="highlight">Amiya Hidayathulla</span></h3><br><br>
+                <p>
+                    Passionate software engineer and dedicated frontend developer based in Kerala, India. Currently in the exhilarating journey of my 4th year pursuing a B.Tech in Computer Science at St. Joseph's College of Engineering, Palai, Kottayam.
+                </p>
+                <p>
+                    I am deeply motivated and dedicated to creating engaging and user-friendly web applications. My goal is to contribute to the ever-evolving field of technology and inspire others through my work.
+                </p>
+                <p>
+                    My enthusiasm for crafting elegant and efficient solutions to real-world problems drives my journey in the dynamic field of technology. As a frontend developer, I specialize in creating captivating and user-friendly web applications that leave a lasting impact.
+                </p>
+                <p>
+                    Beyond coding, I find immense joy in motivating and inspiring others. I believe in the power of collaboration, continuous learning, and the positive influence of technology on society. My goal is not just to write code, but to contribute meaningfully to the ever-evolving landscape of software engineering.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Personal Information Section -->
+<section id="personal-info" class="personal-info-section">
+    <div class="container">
+        <div class="row">
+            <!-- Left Side - Personal Details -->
+            <div class="col-md-6 personal-details">
+                <h2>Personal Information</h2>
+                <ul>
+                    <li><i class="fas fa-user"></i> Name: Amiya Hidayathulla</li>
+                    <li><i class="fas fa-birthday-cake"></i> Age: 22</li>
+                    <li><i class="fas fa-tint"></i> Blood Group: O+ve</li>
+                    <li><i class="fas fa-phone"></i> Phone: +91-8590689347</li>
+                    <li><i class="fas fa-envelope"></i> Email: <a href="mailto:amiyahiday208@gmail.com" style="color: white;"> amiyahiday208@gmail.com</a></li>
+                </ul>
+            </div>
+            <!-- Right Side - Photo -->
+            <div class="col-md-6 personal-photo">
+                <img src="passport.jpg" alt="Amiya Hidayathulla" class="img-fluid rounded-circle">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Education Section -->
+<section id="education" class="education-section">
+    <div class="container">
+        <h2 class="section-title">Education</h2>
+
+        <!-- Carousel Wrapper -->
+        <div class="carousel-wrapper">
+            <!-- Left Arrow -->
+            <button class="carousel-arrow left-arrow" onclick="moveCard(-1)">&#10094;</button>
+
+            <!-- Cards Wrapper -->
+            <div class="carousel-inner">
+                <!-- Education Card 1 -->
+                <div class="education-card">
+                    <div class="card">
+                        <img src="sjcet.jpg" alt="Institute 1" class="card-img">
+                        <div class="card-content">
+                            <h4>St. Joseph's College of Engineering and Technology, Palai</h4>
+                            <p>2021 - 2025</p>
+                            <button class="read-more-btn" onclick="toggleDescription(this)">Learn More</button>
+                            <p class="description">I'm currently in my 4th year of B.Tech in Computer Science at St. Joseph's College of Engineering, Palai.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Card 2 -->
+                <div class="education-card">
+                    <div class="card">
+                        <img src="stmarys2.jpeg" alt="Institute 2" class="card-img">
+                        <div class="card-content">
+                            <h4>St Mary's Higher Secondary School Bharananganam, Palai</h4>
+                            <p>2019 - 2021</p>
+                            <button class="read-more-btn" onclick="toggleDescription(this)">Learn More</button>
+                            <p class="description">I completed my higher secondary education at St. Mary's Higher Secondary School, Bharananganam, Palai, achieving an impressive 98.6% in the Biology-Maths stream.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Card 3 -->
+                <div class="education-card">
+                    <div class="card">
+                        <img src="alphonsa.avif" alt="Institute 3" class="card-img">
+                        <div class="card-content">
+                            <h4>St Alphonsa Public School & Junior College, Aruvithura</h4>
+                            <p>2006 - 2019</p>
+                            <button class="read-more-btn" onclick="toggleDescription(this)">Learn More</button>
+                            <p class="description">I spent 13 transformative years at St. Alphonsa Public School & Junior College, Aruvithura, from playschool through 10th grade, building a strong foundation in academics and graduating with an exceptional 94.4% in my 10th board exams.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Arrow -->
+            <button class="carousel-arrow right-arrow" onclick="moveCard(1)">&#10095;</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Skill Section -->
+<section class="skills" id="skills">
+    <div class="container">
+        <h1>My Skills</h1>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="c-solid.svg" alt="C">
+                <h3>C</h3>
+            </div>
+            <div class="skill-card">
+                <img src="python-brands-solid.svg" alt="PYTHON">
+                <h3>PYTHON</h3>
+            </div>
+            <div class="skill-card">
+                <img src="java-brands-solid.svg" alt="JAVA">
+                <h3>JAVA</h3>
+            </div>
+            <div class="skill-card">
+                <img src="html5.svg" alt="HTML">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card">
+                <img src="css3-alt.svg" alt="CSS">
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-card">
+                <img src="js.svg" alt="JavaScript">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <img src="flutter-brands-solid.svg" alt="Flutter">
+                <h3>Flutter</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Personal skills Section -->
+<section class="personal-skills" id="skills">
+    <div class="container">
+        <h2>Personal Skills</h2>
+        <div class="skills-list">
+            <div class="skill-item">
+                
+                <div class="skill-info">
+                    <h3>Communication</h3>
+                    <p>Effectively convey ideas and collaborate with team members. Fluent in Malayalam, English, and Hindi.</p>
+                </div>
+            </div>
+            <div class="skill-item">
+                
+                <div class="skill-info">
+                    <h3>Problem Solving</h3>
+                    <p>Identify and resolve issues with creative and practical solutions.</p>
+                </div>
+            </div>
+            <div class="skill-item">
+               
+                <div class="skill-info">
+                    <h3>Time Management</h3>
+                    <p>Efficiently manage time and prioritize tasks to meet deadlines.</p>
+                </div>
+            </div>
+            <div class="skill-item">
+                
+                <div class="skill-info">
+                    <h3>Leadership</h3>
+                    <p>Lead and inspire teams to achieve project goals and foster a positive environment.</p>
+                </div>
+            </div>
+            <div class="skill-item">
+                <div class="skill-info">
+                    <h3>Dancing</h3>
+                    <p>Love to dance and express myself through various styles, bringing joy and energy to every movement.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+ <!-- Gallery Section -->
+ <section id="gallery" class="gallery-section">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <a href="#img1">
+                    <img src="img1.jpg" alt="Photo 1">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#img2">
+                    <img src="img2.jpg" alt="Photo 2">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#img3">
+                    <img src="img3.jpg" alt="Photo 3">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#img4">
+                    <img src="img4.jpg" alt="Photo 4">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#img5">
+                    <img src="img5.jpg" alt="Photo 5">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#img6">
+                    <img src="img6.jpg" alt="Photo 6">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#img7">
+                    <img src="img7.jpg" alt="Photo 7">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#img8">
+                    <img src="img8.jpg" alt="Photo 8">
+                </a>
+            </div>
+            <!-- Add more photos as needed -->
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox for each photo -->
+<div id="img1" class="lightbox">
+    <a href="#gallery" class="close-lightbox">&times;</a>
+    <img src="img1.jpg" alt="Photo 1">
+</div>
+
+<div id="img2" class="lightbox">
+    <a href="#gallery" class="close-lightbox">&times;</a>
+    <img src="img2.jpg" alt="Photo 2">
+</div>
+
+<div id="img3" class="lightbox">
+    <a href="#gallery" class="close-lightbox">&times;</a>
+    <img src="img3.jpg" alt="Photo 3">
+</div>
+
+<div id="img4" class="lightbox">
+    <a href="#gallery" class="close-lightbox">&times;</a>
+    <img src="img4.jpg" alt="Photo 4">
+</div>
+<div id="img5" class="lightbox">
+    <a href="#gallery" class="close-lightbox">&times;</a>
+    <img src="img5.jpg" alt="Photo 4">
+</div>
+<div id="img6" class="lightbox">
+    <a href="#gallery" class="close-lightbox">&times;</a>
+    <img src="img6.jpg" alt="Photo 4">
+</div>
+<div id="img7" class="lightbox">
+    <a href="#gallery" class="close-lightbox">&times;</a>
+    <img src="img7.jpg" alt="Photo 4">
+</div>
+<div id="img8" class="lightbox">
+    <a href="#gallery" class="close-lightbox">&times;</a>
+    <img src="img8.jpg" alt="Photo 4">
+</div>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <!-- Left Part: Form -->
+            <div class="contact-form">
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Right Part: Map -->
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31463.30201070426!2d76.74573319088474!3d9.688487751576703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07ca4d9a189e03%3A0x3ab614def93c17aa!2sErattupetta%2C%20Kerala!5e0!3m2!1sen!2sin!4v1726833513005!5m2!1sen!2sin" 
+                width="600" 
+                height="450"
+                 style="border:0;" 
+                 allowfullscreen="" 
+                 loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- connect me Section -->
+<section id="connect-me" class="connect-section">
+    <div class="container">
+        <h2>Connect with Me</h2>
+        <div class="connect-icons">
+            <a href="https://www.linkedin.com/in/amiya-hidayathulla-784013280/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/AmiyaHidayathulla" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/amiyahiday___/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:amiyahiday208@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer-section">
+    <p> &copy;2024 @amiyahidayathulla | All rights reserved</p>
+</footer>
+    
+
+
+    <script>
+        const toggleButton = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        const navLinkItems = document.querySelectorAll('.nav-links li a');
+    
+        // Toggle the mobile menu when the button is clicked
+        toggleButton.addEventListener('click', (event) => {
+            navLinks.classList.toggle('active');
+            event.stopPropagation(); // Prevent the event from bubbling up to the document click listener
+        });
+    
+        // Close the mobile menu when a navigation link is clicked
+        navLinkItems.forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+            });
+        });
+    
+        // Close the mobile menu when clicking anywhere outside the navbar
+        document.addEventListener('click', (event) => {
+            const isClickInsideMenu = navLinks.contains(event.target);
+            const isClickInsideToggle = toggleButton.contains(event.target);
+    
+            if (!isClickInsideMenu && !isClickInsideToggle) {
+                navLinks.classList.remove('active'); // Close the menu
+            }
+        });
+
+
+        /* Education section */
+        let currentCardIndex = 0;
+
+        // Function to move between cards
+        function moveCard(direction) {
+            const cards = document.querySelectorAll('.education-card');
+            const totalCards = cards.length;
+            
+            // Calculate new index
+            currentCardIndex += direction;
+        
+            // Loop back if reaching the end or start
+            if (currentCardIndex >= totalCards) {
+                currentCardIndex = 0;
+            } else if (currentCardIndex < 0) {
+                currentCardIndex = totalCards - 1;
+            }
+        
+            // Translate the carousel to the new position
+            document.querySelector('.carousel-inner').style.transform = `translateX(-${currentCardIndex * 100}%)`;
+        }
+        
+        // Function to toggle description when "Learn More" is clicked
+        function toggleDescription(button) {
+            const description = button.nextElementSibling;
+            description.style.display = description.style.display === 'block' ? 'none' : 'block';
+        }
+        
+
+    </script>
+    
+    
+</body>
+</html>
